@@ -1,15 +1,21 @@
-🚀 ByteSpice: Lexical & Syntactic Analyzer
+# 🚀 ByteSpice: Lexical & Syntactic Analyzer
 
-Ένας ολοκληρωμένος Λεξικός (Flex) και Συντακτικός (Bison) αναλυτής για μια προσαρμοσμένη αντικειμενοστρεφή γλώσσα προγραμματισμού, που αναπτύχθηκε στο πλαίσιο του μαθήματος "Αρχές Γλωσσών Προγραμματισμού και Μεταφραστών".
+ByteSpice is a comprehensive **Lexical (Flex)** and **Syntactic (Bison)** analyzer designed for a custom object-oriented programming language. This project was developed as part of the **"Principles of Programming Languages and Compilers"** academic course.
 
-🛠️ Χαρακτηριστικά
+## 🛠️ Features
 
-Λεξική Ανάλυση: Αναγνώριση tokens, keywords, αριθμητικών τιμών (int, double) και διαχείριση σχολίων.
-Συντακτική Ανάλυση: Υλοποίηση γραμματικής BNF για δομές ελέγχου (IF, WHILE, FOR), κλάσεις και μεθόδους.
-Symbol Table: Δυναμική διαχείριση μεταβλητών και μεθόδων με χρήση συνδεδεμένων λιστών για έλεγχο διπλότυπων δηλώσεων.
-Semantic Checks: Έλεγχος τύπων δεδομένων (type checking) και ανίχνευση σφαλμάτων όπως η διαίρεση με το μηδέν.
-Υποστήριξη Πράξεων: Εκτέλεση βασικών αριθμητικών υπολογισμών και ανάθεση αποτελεσμάτων.
+* **Lexical Analysis:** Token recognition, keyword identification, and handling of numeric literals (`int`, `double`). Includes robust comment management using **Flex**.
+* **Syntactic Analysis:** Implementation of a formal **BNF grammar** to support:
+    * Control structures (`IF`, `WHILE`, `FOR`).
+    * Class definitions and method declarations.
+* **Symbol Table:** Dynamic management of variables and methods using **linked lists**, featuring scope handling and duplicate declaration detection.
+* **Semantic Checks:** Static analysis including:
+    * Strict **type checking**.
+    * Error detection (e.g., division by zero).
+* **Operations Support:** Evaluation of basic arithmetic expressions and assignment operations.
 
-💻 Τεχνολογίες
+## 💻 Tech Stack
 
-C (Core logic) Flex (Lexical Generator) Bison (Parser Generator) 
+* **C** (Core Logic & Data Structures)
+* **Flex** (Lexical Scanner Generator)
+* **Bison** (LALR Parser Generator)
