@@ -1,6 +1,6 @@
 # 🚀 ByteSpice: Lexical & Syntactic Analyzer
 
-ByteSpice is a comprehensive **Lexical (Flex)** and **Syntactic (Bison)** analyzer designed for a custom object-oriented programming language. This project was developed as part of the **"Principles of Programming Languages and Compilers"** academic course.
+ByteSpice is a comprehensive **Lexical (Flex)** and **Syntactic (Bison)** analyzer designed for a custom object-oriented programming language.
 
 ## 🛠️ Features
 
@@ -8,7 +8,7 @@ ByteSpice is a comprehensive **Lexical (Flex)** and **Syntactic (Bison)** analyz
 * **Syntactic Analysis:** Implementation of a formal **BNF grammar** to support:
     * Control structures (`IF`, `WHILE`, `FOR`).
     * Class definitions and method declarations.
-* **Symbol Table:** Dynamic management of variables and methods using **linked lists**, featuring scope handling and duplicate declaration detection.
+* **Symbol Table:** Dynamic management of variables and methods, featuring scope handling and duplicate declaration detection.
 * **Semantic Checks:** Static analysis including:
     * Strict **type checking**.
     * Error detection (e.g., division by zero).
